@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bindings xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+	xmlns="http://java.sun.com/xml/ns/jaxws">
+	<enableAsyncMapping>false</enableAsyncMapping>
+	<bindings
+		node="wsdl:definitions/wsdl:portType [@name='Extra']/wsdl:operation[@name='tryIt']">
+		<enableAsyncMapping>true</enableAsyncMapping>
+	</bindings>
+</bindings>
